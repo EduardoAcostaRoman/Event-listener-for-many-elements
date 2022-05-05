@@ -16,7 +16,7 @@ createElementBtn.addEventListener("click", () => {
   let elementHTML =
     '<a href="#">Element ' +
     elementNumber +
-    ' <img class="" src="../Images/icono-check.png" alt=""></a>';
+    ' <img class="" src="Images/icono-check.png" alt=""></a>';
 
   elementList.innerHTML += elementHTML;
 });
