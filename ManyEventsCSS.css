@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-anchor: none !important;
+  scroll-snap-stop: normal !important;
+  overscroll-behavior: unset !important;
+  scroll-behavior: unset !important;
+}
+
+html {
+  background: rgb(238, 238, 238);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section {
+  background: rgb(37, 37, 37);
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.button {
+  text-align: center;
+}
+
+.addElementBtn {
+  padding: 10px;
+  background: crimson;
+  margin: 10px;
+  display: inline-block;
+  font-weight: bold;
+  border: none;
+  font-size: 30px;
+  transition: 0.3s all ease;
+}
+
+.addElementBtn:hover {
+  background: rgb(156, 0, 31);
+  color: white;
+  cursor: pointer;
+}
+
+.addElementBtn:active {
+  background: rgb(139, 1, 29);
+  color: rgb(236, 236, 236);
+  cursor: pointer;
+}
+
+.list {
+  text-align: center;
+}
+
+.list a {
+  text-decoration: none;
+  padding: 10px;
+  background: rgb(2, 209, 199);
+  margin: 10px;
+  display: inline-block;
+  color: black;
+  width: 80%;
+  text-align: left;
+  transition: 0.3s all ease;
+}
+
+.list a:hover {
+  color: white;
+  background: rgb(10, 66, 63);
+}
+
+.list a:active {
+  color: rgb(236, 236, 236);
+  background: rgb(9, 56, 54);
+}
+
+.list a img {
+  width: 10%;
+  display: none;
+}
+
+.list .selected img {
+  display: block;
+  float: right;
+}
